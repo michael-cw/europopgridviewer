@@ -1,0 +1,135 @@
+ /* Style the sidebar */
+.sidebar {
+  width: auto;
+  border-radius: 25px;
+  height: 80%;
+  margin-bottom: auto;
+  margin-top: 50px;
+  margin-right: 20px;
+  background-color: rgba(0, 159, 218, 0.5);  /* transparent blue */
+  z-index: 999;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-left: -200px;  /* overlap the map */
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  margin: auto;
+}
+
+.shiny-notification-panel {
+  width: 200px;
+}
+.shiny-notification {
+             position:fixed;
+             top: 65px;
+             left: 50px;
+             color: red;
+             background-color: #009FDA;
+             }
+
+h2 {
+  color: #FFFFFF !important;
+  text-align: center;
+}
+
+/* Style the selectizeInput element */
+.sidebar .shiny-input-container .control-label {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sidebar .shiny-input-container {
+  border-color: #0D47A1 !important;
+  margin: auto !important;
+  text-align: center !important;
+}
+
+.sidebar .selectize-input {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.sidebar .selectize-input .item {
+  color: white !important;
+}
+.sidebar .selectize-dropdown {
+  background-color: rgba(0, 0, 255, 0.5) !important;  /* transparent blue */
+  color: white !important;
+}
+.sidebar .selectize-dropdown .option {
+  color: white !important;
+}
+.sidebar .selectize-dropdown .option.active {
+  background-color: rgba(0, 0, 255, 0.7) !important;
+}
+
+/* Style the small table made with the DT package */
+.sidebar table {
+  width: 80% !important;  /* make the table smaller */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: rgba(0, 159, 218, 0.7);  /* more transparent blue */
+  color: white;  /* white font color */
+}
+.sidebar th,
+.sidebar td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+  color: #0066ff;  /* blue font color */
+}
+.sidebar th {
+  background-color: #0066ff;  /* blue */
+  color: white;  /* white font color */
+}
+
+#download_pdf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  background-color: #009FDA;
+  color: white;
+  width: 80%;
+}
+
+/* Style the map */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the map controls */
+.mapboxgl-ctrl {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the map zoom control */
+.mapboxgl-ctrl-zoom {
+  border: none;
+}
+
+/* Style the map full screen control */
+.mapboxgl-ctrl-fullscreen {
+  border: none;
+}
+
+/* Style the map geolocate control */
+.mapboxgl-ctrl-geolocate {
+  border: none;
+}
+
+/* Style the map navigation control */
+.mapboxgl-ctrl-nav {
+  border: none;
+}
