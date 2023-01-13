@@ -31,7 +31,7 @@ run_app <- function(
       uiPattern = uiPattern
     ),
     golem_opts = list(
-      mapdeck_api_key = ifelse(is.null(mapboxkey), "nokey", mapboxkey)
+      mapdeck_api_key = mapboxkey
     )
   )
 }
