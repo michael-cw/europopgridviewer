@@ -51,11 +51,11 @@ app_server <- function(input, output, session) {
     locationbb<-sf::st_as_sfc(sf::st_bbox(crou)) %>% sf::st_centroid() %>% sf::st_coordinates()
     locationbb<-as.numeric(t(locationbb))
 
-    mapdeck::mapdeck(location = locationbb,
+    mapdeck(location = locationbb,
             zoom = 4,
             token = golem::get_golem_options("mapdeck_api_key"),
             style = mapdeck_style("satellite-streets")) %>%
-      mapdeck::add_polygon(data = countries, layer_id = "layer1",
+      add_polygon(data = countries, layer_id = "layer1",
                   fill_opacity = 0.7,
                   fill_colour = "ISO3_CODE",
                   focus_layer = F, update_view = F,

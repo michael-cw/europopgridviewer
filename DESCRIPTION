@@ -3,7 +3,7 @@ Title: Shiny app to view eurostat population grids
 Version: 0.0.0.9000
 Authors@R: 
     person("Michael", "Wild", , "mwild@worldbank.org", role = c("cre", "aut"))
-Description: Displays eurostat population grids and allows for pdf map download
+Description: Displays eurostat population grids and allows for pdf map download.
 License: MIT + file LICENSE
 Imports: 
     shiny (>= 1.7.1),
@@ -14,7 +14,6 @@ Imports:
     sf,
     giscoR,
     golem (>= 0.3.3),
-    mapdeck,
     dplyr,
     magrittr,
     DT,
