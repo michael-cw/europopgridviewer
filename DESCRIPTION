@@ -1,8 +1,7 @@
 Package: europopgridviewer
 Title: Shiny app to view eurostat population grids
-Version: 0.0.0.9000
-Authors@R: 
-    person("Michael", "Wild", , "mwild@worldbank.org", role = c("cre", "aut"))
+Version: 0.1.1
+Authors@R: person("Michael", "Wild", , "mwild@worldbank.org", role = c("cre", "aut"))
 Description: Displays eurostat population grids and allows for pdf map download.
 License: MIT + file LICENSE
 Imports: 
@@ -27,7 +26,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
-Language: en-US
 LazyData: true
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr
