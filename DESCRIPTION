@@ -2,17 +2,18 @@ Package: europopgridviewer
 Title: Shiny app to view eurostat population grids
 Version: 0.1.1
 Authors@R: person("Michael", "Wild", , "mwild@worldbank.org", role = c("cre", "aut"))
-Description: Displays eurostat population grids and allows for pdf map download.
+Description: Displays eurostat population grids and allows for pdf map download, the package is based on shiny
+    giscoR and mapdeck, currently only 10km and 5km grids are included.
 License: MIT + file LICENSE
 Imports: 
+    mapdeck,
+    config (>= 0.3.1),
+    golem (>= 0.3.3),
     shiny (>= 1.7.1),
     shinybrowser,
     shinycssloaders,
-    config (>= 0.3.1),
-    mapdeck,
     sf,
     giscoR,
-    golem (>= 0.3.3),
     dplyr,
     magrittr,
     DT,
