@@ -63,7 +63,7 @@ After having selected a country as well as the desired grid layer (5km
 or 10km) with the two drop down inputs in the sidebar, the application
 will load the grid onto the map.
 
-![](./doc/img/screen_load.png)
+![](./man/img/screen_load.png)
 
 In case you want to use the map in an external file, like i.e. a
 presentation or a report, you can also download the map by clicking
