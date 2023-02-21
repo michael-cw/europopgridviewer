@@ -56,7 +56,7 @@ europopgridviewer::run_app(mapboxkey = [Your key goes her])
 
 This will load the default map for all the members of the European Statistical System. 
 
-![](./doc/img/screen_start.png)
+![](./man/img/screen_start.png)
 
 After having selected a country as well as the desired grid layer (5km or 10km) with the two drop down inputs in the sidebar, the application will load the grid onto the map.
 
