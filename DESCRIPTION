@@ -20,6 +20,8 @@ Imports:
     ggplot2,
     ggspatial,
     scales
+Depends:
+    R (>= 3.3.0)
 Suggests: 
     knitr,
     rmarkdown,

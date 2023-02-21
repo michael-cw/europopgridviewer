@@ -10,3 +10,4 @@ $run_dev.*
 ^Meta$
 ^CODE_OF_CONDUCT\.md$
 ^CREDENTIALS\!\!REMOVE\.R$
+^\.github$
