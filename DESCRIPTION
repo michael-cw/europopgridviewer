@@ -32,3 +32,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr
+URL: https://michael-cw.github.io/europopgridviewer/

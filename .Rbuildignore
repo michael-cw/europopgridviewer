@@ -11,3 +11,6 @@ $run_dev.*
 ^CODE_OF_CONDUCT\.md$
 ^CREDENTIALS\!\!REMOVE\.R$
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
